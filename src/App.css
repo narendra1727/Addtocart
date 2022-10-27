@@ -1,0 +1,176 @@
+
+.header{
+    background-color: black;
+    color: white;
+    height:30vh;
+    width:100vw;
+    text-align: center;
+    padding-top:12vh;
+}
+
+.card-data{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-top: 15vh;
+    margin-left:13vw;
+    margin-right:13vw;
+}
+
+.menu-items{
+    display:flex;
+    flex-direction: row;
+}
+
+.card{
+    height:350px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.image1{
+    height: 150px;
+    width:225px;
+    object-fit: cover;
+}
+
+
+.data1{
+    text-align: center;
+    width:200px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.click1{
+    border:2px solid black;
+    padding:5px;
+    border-radius:5px;
+}
+
+.click1:hover{
+    background-color: black;
+    color:white;
+
+}
+
+button{
+    font-size:15px;
+    padding:5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    gap:2vw;
+    margin-left: 3vw;
+    
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+}
+.button-navbar{
+    display:flex;
+    flex-direction:row;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+
+.nav-button{
+    margin-left:45vw;
+}
+
+.right-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.stboot{
+    margin-left: 13vw;
+}
+
+.menu-items{
+    display:none;
+    position:absolute;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.menu-items{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+
+/* .right-menu:hover .menu-items{
+    display:block;
+    
+} */
+
+.menu-items a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.footer1{
+    text-align:center;
+    background-color: black;
+    color: white;
+    height:15vh;
+    margin-top:5vh;
+    padding-top: 6vh;
+
+}
+
+.menuicon{
+    display: none;
+}
+
+
+@media screen and (max-width: 950px){
+    .menus{
+        display:flex;
+        flex-direction:column;
+    }
+    .navbar{
+        display:none;
+        flex-direction: column;
+        margin-left:13vw;
+        margin-top: 4vh;
+    }
+
+    .nav-button{
+        margin-left: 0vw;
+    }
+
+    .menuicon{
+        display: block;
+        height:30px;
+        width:30px;
+    }
+    
+    .menuicon:hover{
+        cursor: pointer;
+    }
+
+    .icon{
+        margin-left:50vw;
+    }
+}
